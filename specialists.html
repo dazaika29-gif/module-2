@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Команда юристов и адвокатов компании.">
+  <title>Специалисты — Правовой Альянс</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-warning border-2">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-bank2 text-warning me-2"></i>Правовой Альянс</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="specialists.html">Специалисты</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Стоимость консультации</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <button type="button" class="btn btn-warning fw-semibold" data-bs-toggle="modal" data-bs-target="#consultModal">Заказать консультацию</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="bg-dark text-white py-5">
+  <div class="container py-3">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-2">
+        <li class="breadcrumb-item"><a class="link-warning" href="index.html">Главная</a></li>
+        <li class="breadcrumb-item active text-white-50" aria-current="page">Специалисты</li>
+      </ol>
+    </nav>
+    <h1 class="display-5 fw-bold">Наши специалисты</h1>
+  </div>
+</section>
+
+<main>
+  <section class="py-5">
+    <div class="container">
+      <p class="lead text-center col-lg-8 mx-auto mb-5">Команда практикующих юристов и адвокатов. Каждый специалист работает в своей области и отвечает за результат.</p>
+      <div class="row g-4">
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">АС</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Асель Султанова</h2>
+            <p class="text-warning-emphasis small mb-2">Управляющий партнёр · Корпоративное право</p>
+            <p class="text-body-secondary small">Стаж 18 лет. Сопровождает крупные сделки и корпоративные споры.</p>
+            <span class="badge text-bg-light border me-1">Корпоративное</span><span class="badge text-bg-light border me-1">M&A</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">ДН</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Данияр Нурматов</h2>
+            <p class="text-warning-emphasis small mb-2">Адвокат · Уголовная защита</p>
+            <p class="text-body-secondary small">Стаж 14 лет. Участвовал в более чем 300 уголовных процессах.</p>
+            <span class="badge text-bg-light border me-1">Уголовное</span><span class="badge text-bg-light border me-1">Суд</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">ЭК</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Элина Касымова</h2>
+            <p class="text-warning-emphasis small mb-2">Старший юрист · Семейное право</p>
+            <p class="text-body-secondary small">Стаж 10 лет. Специалист по разводам, алиментам и опеке.</p>
+            <span class="badge text-bg-light border me-1">Семейное</span><span class="badge text-bg-light border me-1">Наследство</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">БТ</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Бекзат Тургунов</h2>
+            <p class="text-warning-emphasis small mb-2">Юрист · Недвижимость</p>
+            <p class="text-body-secondary small">Стаж 8 лет. Проверка сделок и регистрация прав на объекты.</p>
+            <span class="badge text-bg-light border me-1">Недвижимость</span><span class="badge text-bg-light border me-1">Земля</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">НА</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Нургуль Абдыкадырова</h2>
+            <p class="text-warning-emphasis small mb-2">Юрист · Трудовое право</p>
+            <p class="text-body-secondary small">Стаж 7 лет. Защита работников и консультирование работодателей.</p>
+            <span class="badge text-bg-light border me-1">Трудовое</span><span class="badge text-bg-light border me-1">HR</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 overflow-hidden">
+          <div class="bg-dark text-warning text-center py-5 display-3 fw-bold" aria-hidden="true">РЖ</div>
+          <div class="card-body">
+            <h2 class="h5 mb-0">Руслан Жумабаев</h2>
+            <p class="text-warning-emphasis small mb-2">Юрист-консультант · Договорная работа</p>
+            <p class="text-body-secondary small">Стаж 6 лет. Составление и экспертиза договоров любой сложности.</p>
+            <span class="badge text-bg-light border me-1">Договоры</span><span class="badge text-bg-light border me-1">Претензии</span>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3"><button type="button" class="btn btn-outline-dark btn-sm w-100" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться к специалисту</button></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-dark text-white-50 mt-auto pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h5 class="text-white"><i class="bi bi-bank2 text-warning me-2"></i>Правовой Альянс</h5>
+        <p class="small">Юридическая компания полного цикла. Защищаем интересы граждан и бизнеса с 2009 года.</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <h5 class="text-white">Разделы</h5>
+        <ul class="list-unstyled small"><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="index.html">Главная</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="services.html">Услуги</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="specialists.html">Специалисты</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="pricing.html">Стоимость консультации</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="contacts.html">Контакты</a></li></ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <h5 class="text-white">Контакты</h5>
+        <ul class="list-unstyled small">
+          <li class="mb-1"><i class="bi bi-geo-alt text-warning me-2"></i>г. Бишкек, пр. Чуй, 120, офис 305</li>
+          <li class="mb-1"><i class="bi bi-telephone text-warning me-2"></i>+996 555 123 456</li>
+          <li class="mb-1"><i class="bi bi-envelope text-warning me-2"></i>info@pravovoy-alyans.example</li>
+          <li><i class="bi bi-clock text-warning me-2"></i>Пн–Пт 9:00–18:00</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <p class="text-center small mb-0">&copy; 2026 Правовой Альянс. Все права защищены. Учебный проект: все данные вымышлены.</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="consultModal" tabindex="-1" aria-labelledby="consultModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h2 class="modal-title fs-5" id="consultModalLabel">Заказать консультацию</h2>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <form action="contacts.html" method="get">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="modalName" class="form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="modalName" name="name" placeholder="Иван Иванов" required>
+          </div>
+          <div class="mb-3">
+            <label for="modalPhone" class="form-label">Телефон</label>
+            <input type="tel" class="form-control" id="modalPhone" name="phone" placeholder="+996 555 123 456" required>
+          </div>
+          <div class="mb-3">
+            <label for="modalTopic" class="form-label">Тема обращения</label>
+            <select class="form-select" id="modalTopic" name="topic" required>
+              <option value="" selected disabled>Выберите тему</option>
+              <option>Семейное право</option>
+              <option>Корпоративное право</option>
+              <option>Недвижимость</option>
+              <option>Трудовые споры</option>
+              <option>Уголовная защита</option>
+              <option>Другое</option>
+            </select>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="modalAgree" required>
+            <label class="form-check-label small" for="modalAgree">Согласен на обработку персональных данных</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+          <button type="submit" class="btn btn-warning fw-semibold">Отправить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

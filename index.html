@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Юридическая компания: консультации, защита в суде, сопровождение бизнеса.">
+  <title>Главная — Правовой Альянс</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-warning border-2">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-bank2 text-warning me-2"></i>Правовой Альянс</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+          <li class="nav-item"><a class="nav-link" href="specialists.html">Специалисты</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Стоимость консультации</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <button type="button" class="btn btn-warning fw-semibold" data-bs-toggle="modal" data-bs-target="#consultModal">Заказать консультацию</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="bg-dark text-white py-5">
+    <div class="container py-4 py-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="badge rounded-pill text-bg-warning mb-3 text-uppercase">Юридическая компания</span>
+          <h1 class="display-4 fw-bold">Надёжная правовая защита для вас и вашего бизнеса</h1>
+          <p class="lead text-white-50 mt-3">Консультируем, представляем интересы в судах и сопровождаем сделки. Первичный разбор вашей ситуации — бесплатно.</p>
+          <div class="d-grid gap-2 d-sm-flex mt-4">
+            <button type="button" class="btn btn-warning btn-lg fw-semibold" data-bs-toggle="modal" data-bs-target="#consultModal">Получить консультацию</button>
+            <a href="services.html" class="btn btn-outline-light btn-lg">Наши услуги</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card bg-body-tertiary text-body border-0 shadow">
+            <div class="card-body p-4">
+              <h2 class="h5 mb-3"><i class="bi bi-lightning-charge-fill text-warning me-2"></i>Быстрая заявка</h2>
+              <form action="contacts.html" method="get">
+                <div class="mb-3"><label for="heroPhone" class="form-label">Телефон</label>
+                  <input type="tel" class="form-control" id="heroPhone" name="phone" placeholder="+996 555 123 456" required></div>
+                <div class="mb-3"><label for="heroQ" class="form-label">Кратко о проблеме</label>
+                  <textarea class="form-control" id="heroQ" name="message" rows="3" required></textarea></div>
+                <button type="submit" class="btn btn-dark w-100">Перезвоните мне</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container py-3">
+      <div class="row g-4">
+      <div class="col-md-4 text-center">
+        <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-dark text-warning fs-2 mb-3" style="width:4rem;height:4rem"><i class="bi bi-award"></i></span>
+        <h3 class="h5">15+ лет практики</h3>
+        <p class="text-body-secondary">Опытные юристы с профильным образованием и сотнями выигранных дел.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-dark text-warning fs-2 mb-3" style="width:4rem;height:4rem"><i class="bi bi-lock"></i></span>
+        <h3 class="h5">Конфиденциальность</h3>
+        <p class="text-body-secondary">Адвокатская тайна и защита данных клиента на всех этапах.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-dark text-warning fs-2 mb-3" style="width:4rem;height:4rem"><i class="bi bi-cash-coin"></i></span>
+        <h3 class="h5">Прозрачные цены</h3>
+        <p class="text-body-secondary">Фиксированная стоимость консультации без скрытых платежей.</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-body-tertiary">
+    <div class="container py-3">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Направления работы</h2>
+        <p class="text-body-secondary">Решаем юридические задачи любой сложности</p>
+      </div>
+      <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-people text-warning display-5"></i>
+            <h3 class="h5 mt-3">Семейное право</h3>
+            <p class="text-body-secondary mb-0">Разводы, раздел имущества, алименты, опека и брачные договоры.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-building text-warning display-5"></i>
+            <h3 class="h5 mt-3">Корпоративное право</h3>
+            <p class="text-body-secondary mb-0">Регистрация бизнеса, договоры, сопровождение сделок и споров.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-house-door text-warning display-5"></i>
+            <h3 class="h5 mt-3">Недвижимость</h3>
+            <p class="text-body-secondary mb-0">Проверка сделок, оформление прав, споры по купле-продаже и аренде.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-briefcase text-warning display-5"></i>
+            <h3 class="h5 mt-3">Трудовые споры</h3>
+            <p class="text-body-secondary mb-0">Незаконное увольнение, задолженность по зарплате, трудовые договоры.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-shield-check text-warning display-5"></i>
+            <h3 class="h5 mt-3">Уголовная защита</h3>
+            <p class="text-body-secondary mb-0">Защита на следствии и в суде, консультации по уголовным делам.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <i class="bi bi-file-earmark-text text-warning display-5"></i>
+            <h3 class="h5 mt-3">Договорная работа</h3>
+            <p class="text-body-secondary mb-0">Составление и экспертиза договоров, претензии и исковые заявления.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4 px-4"><a href="services.html" class="link-dark fw-semibold text-decoration-none">Подробнее <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-dark text-center">
+    <div class="container">
+      <div class="row g-4">
+      <div class="col-6 col-md-3">
+        <div class="display-5 fw-bold text-warning">15+</div>
+        <div class="text-white-50">лет на рынке</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="display-5 fw-bold text-warning">2 500</div>
+        <div class="text-white-50">выигранных дел</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="display-5 fw-bold text-warning">12</div>
+        <div class="text-white-50">юристов в команде</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="display-5 fw-bold text-warning">98%</div>
+        <div class="text-white-50">довольных клиентов</div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container py-3">
+      <h2 class="fw-bold text-center mb-5">Отзывы клиентов</h2>
+      <div id="reviews" class="carousel slide col-lg-8 mx-auto" data-bs-ride="carousel">
+        <div class="carousel-indicators" style="filter:invert(1)"><button type="button" data-bs-target="#reviews" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Отзыв 1"></button><button type="button" data-bs-target="#reviews" data-bs-slide-to="1" aria-label="Отзыв 2"></button><button type="button" data-bs-target="#reviews" data-bs-slide-to="2" aria-label="Отзыв 3"></button></div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+          <figure class="text-center px-md-5 mb-5">
+            <blockquote class="blockquote fs-5">&laquo;Помогли выиграть трудовой спор за две недели. Всё объяснили простым языком и держали в курсе.&raquo;</blockquote>
+            <figcaption class="blockquote-footer mb-0">Айгерим К.</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="text-center px-md-5 mb-5">
+            <blockquote class="blockquote fs-5">&laquo;Сопровождали сделку по покупке офиса. Нашли риски, о которых мы даже не думали.&raquo;</blockquote>
+            <figcaption class="blockquote-footer mb-0">Ержан Т.</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="text-center px-md-5 mb-5">
+            <blockquote class="blockquote fs-5">&laquo;Профессиональный подход к разводу и разделу имущества. Рекомендую всем знакомым.&raquo;</blockquote>
+            <figcaption class="blockquote-footer mb-0">Мария С.</figcaption>
+          </figure>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-warning">
+    <div class="container py-2 text-center">
+      <h2 class="fw-bold">Не знаете, с чего начать?</h2>
+      <p class="mb-4">Расскажите о ситуации — мы подскажем следующий шаг.</p>
+      <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#consultModal">Записаться на консультацию</button>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-dark text-white-50 mt-auto pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h5 class="text-white"><i class="bi bi-bank2 text-warning me-2"></i>Правовой Альянс</h5>
+        <p class="small">Юридическая компания полного цикла. Защищаем интересы граждан и бизнеса с 2009 года.</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <h5 class="text-white">Разделы</h5>
+        <ul class="list-unstyled small"><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="index.html">Главная</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="services.html">Услуги</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="specialists.html">Специалисты</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="pricing.html">Стоимость консультации</a></li><li class="mb-1"><a class="link-light link-opacity-75 link-opacity-100-hover text-decoration-none" href="contacts.html">Контакты</a></li></ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <h5 class="text-white">Контакты</h5>
+        <ul class="list-unstyled small">
+          <li class="mb-1"><i class="bi bi-geo-alt text-warning me-2"></i>г. Бишкек, пр. Чуй, 120, офис 305</li>
+          <li class="mb-1"><i class="bi bi-telephone text-warning me-2"></i>+996 555 123 456</li>
+          <li class="mb-1"><i class="bi bi-envelope text-warning me-2"></i>info@pravovoy-alyans.example</li>
+          <li><i class="bi bi-clock text-warning me-2"></i>Пн–Пт 9:00–18:00</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <p class="text-center small mb-0">&copy; 2026 Правовой Альянс. Все права защищены. Учебный проект: все данные вымышлены.</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="consultModal" tabindex="-1" aria-labelledby="consultModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h2 class="modal-title fs-5" id="consultModalLabel">Заказать консультацию</h2>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <form action="contacts.html" method="get">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="modalName" class="form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="modalName" name="name" placeholder="Иван Иванов" required>
+          </div>
+          <div class="mb-3">
+            <label for="modalPhone" class="form-label">Телефон</label>
+            <input type="tel" class="form-control" id="modalPhone" name="phone" placeholder="+996 555 123 456" required>
+          </div>
+          <div class="mb-3">
+            <label for="modalTopic" class="form-label">Тема обращения</label>
+            <select class="form-select" id="modalTopic" name="topic" required>
+              <option value="" selected disabled>Выберите тему</option>
+              <option>Семейное право</option>
+              <option>Корпоративное право</option>
+              <option>Недвижимость</option>
+              <option>Трудовые споры</option>
+              <option>Уголовная защита</option>
+              <option>Другое</option>
+            </select>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="modalAgree" required>
+            <label class="form-check-label small" for="modalAgree">Согласен на обработку персональных данных</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+          <button type="submit" class="btn btn-warning fw-semibold">Отправить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
